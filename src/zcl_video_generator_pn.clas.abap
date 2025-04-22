@@ -23,7 +23,7 @@ CLASS zcl_video_generator_pn IMPLEMENTATION.
 
     TRY.
         itab = VALUE #(
-          ( video_uuid = cl_system_uuid=>create_uuid_x16_static(  )
+        ( video_uuid = cl_system_uuid=>create_uuid_x16_static(  )
             title = `Let's code ABAP | RESTful Application Programming Model (RAP) | CDS | Virtual Elements`
             url = 'https://www.youtube.com/watch?v=BEbztssJlg8'
             description = 'In this video we build a SAP YouTube Tutorials App with ABAP and the ABAP RESTful Application Programming Model (RAP'

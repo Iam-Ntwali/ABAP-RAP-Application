@@ -1,8 +1,7 @@
 @Metadata.layer: #CORE
 @UI.headerInfo.title.type: #STANDARD
-@UI.headerInfo.title.value: 'VideoUuid'
-@UI.headerInfo.description.type: #STANDARD
-@UI.headerInfo.description.value: 'VideoUuid'
+@UI.headerInfo.imageUrl: 'Thumbnail'
+@UI.headerInfo.title.value: 'Title'
 annotate view ZC_TUTO_DB_PN with
 {
   @EndUserText.label: 'VideoUuid'
@@ -26,6 +25,14 @@ annotate view ZC_TUTO_DB_PN with
   } ]
   @UI.hidden: true
   VideoUuid;
+  
+  @UI.lineItem: [{ 
+    position: 5,
+    importance: #MEDIUM,
+    label: 'Thumbnail',
+    cssDefault.width: '5em'
+  }]
+  Thumbnail;
   
   @UI.identification: [ {
     position: 20 

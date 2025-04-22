@@ -2,7 +2,7 @@
 @Metadata.allowExtensions: true
 @EndUserText.label: '###GENERATED Core Data Service Entity'
 define root view entity ZR_TUTO_DB_PN
-  as select from ZTUTO_DB_PN
+  as select from ztuto_db_pn
 {
   key video_uuid as VideoUuid,
   title as Title,

@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TUTO_DB_PN'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TUTO_DB_PN'
+  }
+}
+define service ZUI_TUTO_DB_PN_O4 provider contracts odata_v4_ui {
+  expose ZC_TUTO_DB_PN;
+}
